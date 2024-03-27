@@ -1,0 +1,231 @@
+/* Overall styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7; /* Nike's light gray background */
+    color: #333; /* Dark text color */
+  }
+  
+  /* Main heading */
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #f44336; /* Nike's red color */
+  }
+  
+  /* Table styles */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff; /* White background for the table */
+    border-radius: 5px;
+    overflow: hidden; /* Hide overflowing content */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  th, td {
+    padding: 15px; /* Increase padding for better spacing */
+    border: 1px solid #ddd; /* Add thin borders for separation */
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f44336; /* Nike's red color for table header */
+    color: #fff; /* White text color for table header */
+    font-weight: normal; /* Remove bold font weight */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row color for better readability */
+  }
+  
+  /* Link styles */
+  a {
+    text-decoration: none;
+    color: #fff; /* White text color for links */
+    padding: 10px 20px;
+    background-color: #f44336; /* Nike's red color for buttons */
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  a:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+  
+  /* Flexbox container */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Nike info section */
+  .nike-info {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .nike-info img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Delete confirmation modal (optional) */
+  .delete-confirmation {
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .delete-confirmation p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333; /* Dark text color */
+  }
+  
+  .delete-confirmation strong {
+    font-weight: bold;
+    color: #f44336; /* Nike's red color */
+  }
+  
+  .delete-confirmation a {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .delete-confirmation a.yes {
+    background-color: #f44336; /* Nike's red color */
+  }
+  
+  .delete-confirmation a.yes:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+  
+  .delete-confirmation a.no {
+    background-color: #388e3c; /* Nike's green color */
+  }
+  
+  .delete-confirmation a.no:hover {
+    background-color: #2b6f55; /* Darker green on hover */
+  }
+  /* Overall styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px; /* Increased padding for forms and details */
+    background-color: #f7f7f7; /* Nike's light gray background */
+    color: #333; /* Dark text color */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #f44336; /* Nike's red color */
+  }
+  
+  /* Form styles */
+  form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+  }
+  
+  input[type="text"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color: #333; /* Dark text color */
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #f44336; /* Nike's red color */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  /* Proposal details styles */
+  .proposal-details {
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .proposal-details p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333; /* Dark text color */
+  }
+  
+  .proposal-details strong {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #f44336; /* Nike's red color */
+  }
+  
+  .proposal-details a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f44336; /* Nike's red color */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .proposal-details a:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+  
+  
